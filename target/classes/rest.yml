@@ -1,0 +1,27 @@
+---
+# <- yaml supports comments, json does not
+# did you know you can embed json in yaml?
+# try uncommenting the next line
+# { foo: 'bar' }
+
+- id: ab1
+  url: http://www.huawei.com
+  endpoint: "/v1/zoos"
+  method: GET
+  header:
+    - content-type=application/json
+    - ccept-type=application/json
+  requestbody: {}
+  filter: srst
+  path: s
+  
+- id: ab2
+  url: http://www.huawei.com
+  endpoint: "/v1/zoos"
+  method: GET
+  header:
+    - content-type=application/json
+    - ccept-type=application/json
+  requestbody: {}
+  filter: haah
+  path: s
